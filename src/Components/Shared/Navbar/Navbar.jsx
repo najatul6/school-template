@@ -41,7 +41,7 @@ const Navbar = () => {
                 to={route?.path}
                 className={({ isActive }) =>
                   `px-2 py-3 block ${
-                    isActive ? "text-primary-color " : ""
+                    isActive ? "text-primary-color" : ""
                   } hover:text-primary-color`
                 }
               >
