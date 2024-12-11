@@ -39,7 +39,11 @@ const Navbar = () => {
               <NavLink
                 onClick={() => setIsOpen(!isOpen)}
                 to={route?.path}
-                className=" px-2 py-3 block"
+                className={({ isActive }) =>
+                  `px-2 py-3 block ${
+                    isActive ? "text-primary-color " : ""
+                  } hover:text-primary-color`
+                }
               >
                 {route?.name}
               </NavLink>
