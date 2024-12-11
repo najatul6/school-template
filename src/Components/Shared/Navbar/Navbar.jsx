@@ -99,7 +99,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <div className="flex justify-center items-center gap-3">
-          <Button text={"LogIn"} />
+          <Button text={"LogIn"}/>
           <Button text={"Join us"} icon={<FaArrowRight/>} className={" bg-primary-color "} />
         </div>
       </div>
