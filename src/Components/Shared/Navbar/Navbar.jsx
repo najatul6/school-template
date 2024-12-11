@@ -33,7 +33,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/product"
+          to="/pricing"
           className="text-xl font-semibold"
           style={({ isActive }) => {
             return {
