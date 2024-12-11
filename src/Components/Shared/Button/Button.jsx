@@ -5,9 +5,9 @@ const Button = ({ text, icon, withBg, withOutBg, whiteText }) => {
     <button
       className={`${
         withBg
-          ? "bg-primary-color text-light-color hover:bg-transparent border border-primary-color"
+          ? "bg-primary-color text-light-color hover:bg-transparent border-2 border-primary-color"
           : withOutBg
-          ? "bg-transparent border border-primary-color text-primary-color hover:bg-primary-color hover:text-light-color"
+          ? "bg-transparent border-2 border-primary-color text-primary-color hover:bg-primary-color hover:text-light-color"
           : whiteText
           ? "text-light-color hover:text-primary-color"
           : "text-primary-color hover:text-light-color"
@@ -27,12 +27,3 @@ Button.propTypes = {
 };
 
 export default Button;
-
-// with bg
-// bg-primary-color text-light-color hover:bg-transparent border border-primary-color
-
-// without bg
-// bg-transparent border border-primary-color text-primary-color hover:bg-primary-color hover:text-light-color
-
-// white text
-// text-light-color hover:text-primary-color
