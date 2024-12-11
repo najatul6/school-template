@@ -98,9 +98,9 @@ const Navbar = () => {
         <ul className="menu menu-horizontal  px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <div>
+        <div className="flex justify-center items-center gap-3">
           <Button text={"LogIn"} />
-          <Button text={"Join us"} icon={<FaArrowRight/>} />
+          <Button text={"Join us"} icon={<FaArrowRight/>} className={" bg-primary-color "} />
         </div>
       </div>
     </div>
