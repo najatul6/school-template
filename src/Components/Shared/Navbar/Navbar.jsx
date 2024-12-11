@@ -10,7 +10,7 @@ const Navbar = () => {
           style={({ isActive }) => {
             return {
               backgroundColor: isActive ? "transparent" : "",
-              color: isActive ? "#FC0" : "",
+              color: isActive ? "#8D5CF6" : "",
             };
           }}
         >
@@ -24,7 +24,7 @@ const Navbar = () => {
           style={({ isActive }) => {
             return {
               backgroundColor: isActive ? "transparent" : "",
-              color: isActive ? "#FC0" : "",
+              color: isActive ? "#8D5CF6" : "",
             };
           }}
         >
@@ -38,7 +38,7 @@ const Navbar = () => {
           style={({ isActive }) => {
             return {
               backgroundColor: isActive ? "transparent" : "",
-              color: isActive ? "#FC0" : "",
+              color: isActive ? "#8D5CF6" : "",
             };
           }}
         >
@@ -52,7 +52,7 @@ const Navbar = () => {
           style={({ isActive }) => {
             return {
               backgroundColor: isActive ? "transparent" : "",
-              color: isActive ? "#FC0" : "",
+              color: isActive ? "#8D5CF6" : "",
             };
           }}
         >
