@@ -8,6 +8,10 @@ export default {
         "dark-background-color":"#26335D",
         "light-color":"#FFFFFF",
         "primary-color":"#8D5CF6"
+      },
+      fontFamily:{
+        "montserrat":["Montserrat", "sans-serif"],
+        "poppins":["Montserrat", "sans-serif"],
       }
     },
   },
