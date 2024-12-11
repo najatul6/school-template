@@ -11,7 +11,7 @@ export default {
       },
       fontFamily:{
         "montserrat":["Montserrat", "sans-serif"],
-        "poppins":["Montserrat", "sans-serif"],
+        "jost":["Jost", "serif"],
       }
     },
   },

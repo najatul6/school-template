@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 body{
-  @apply bg-dark-background-color
+  @apply bg-dark-background-color font-montserrat
 }
