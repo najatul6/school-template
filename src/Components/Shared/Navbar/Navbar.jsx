@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Button from "../Button/Button";
+import { FaArrowRight } from "react-icons/fa";
 
 const Navbar = () => {
   const links = (
