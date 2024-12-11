@@ -3,18 +3,62 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const links = (
     <>
-      <NavLink
-        to="/"
-        className="text-xl font-semibold"
-        style={({ isActive }) => {
-          return {
-            backgroundColor: isActive ? "transparent" : "",
-            color: isActive ? "#FC0" : "",
-          };
-        }}
-      >
-        Home
-      </NavLink>
+      <li>
+        <NavLink
+          to="/"
+          className="text-xl font-semibold"
+          style={({ isActive }) => {
+            return {
+              backgroundColor: isActive ? "transparent" : "",
+              color: isActive ? "#FC0" : "",
+            };
+          }}
+        >
+          Home
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/product"
+          className="text-xl font-semibold"
+          style={({ isActive }) => {
+            return {
+              backgroundColor: isActive ? "transparent" : "",
+              color: isActive ? "#FC0" : "",
+            };
+          }}
+        >
+          Product
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/product"
+          className="text-xl font-semibold"
+          style={({ isActive }) => {
+            return {
+              backgroundColor: isActive ? "transparent" : "",
+              color: isActive ? "#FC0" : "",
+            };
+          }}
+        >
+          Pricing
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/contact"
+          className="text-xl font-semibold"
+          style={({ isActive }) => {
+            return {
+              backgroundColor: isActive ? "transparent" : "",
+              color: isActive ? "#FC0" : "",
+            };
+          }}
+        >
+          Contact
+        </NavLink>
+      </li>
     </>
   );
   return (
