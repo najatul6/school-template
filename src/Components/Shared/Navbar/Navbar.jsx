@@ -62,7 +62,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-dark-background-color">
+    <div className="navbar bg-dark-background-color bg-opacity-[0.5]">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -88,7 +88,7 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl"><span className="text-primary-color">Dream</span> School</a>
+        <a className="btn btn-ghost text-xl"><span className="text-primary-color text-2xl">Dream</span>School</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
