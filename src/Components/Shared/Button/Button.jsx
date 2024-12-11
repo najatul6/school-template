@@ -11,7 +11,7 @@ const Button = ({ text, icon, withBg, withOutBg, whiteText }) => {
           : whiteText
           ? "text-light-color hover:text-primary-color"
           : "text-primary-color hover:text-light-color"
-      }  flex justify-center items-center gap-2 px-5 capitalize duration-300 py-3 rounded-md text-xl font-bold`}
+      }  flex justify-center items-center gap-2 px-5 capitalize duration-300 py-3 rounded-md text-sm font-bold`}
     >
       {text} {icon}
     </button>
