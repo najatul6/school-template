@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5";
 import { menu } from "../../../Utils/routes";
+import Button from "../Button/Button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +42,11 @@ const Navbar = () => {
           ))}
         </ul>
       </nav>
-      <div className="dropdown dropdown-end">
+      <div className="flex">
+        <Button text="LogIn" whiteText/>
+        <Button text="JOIN US" withBg/>
+      </div>
+      {/* <div className="dropdown dropdown-end">
         <div tabIndex={0} role="button" className=" m-1">
           <div className="avatar">
             <div className="ring-primary-color w-10 rounded-full ring ">
@@ -60,7 +65,7 @@ const Navbar = () => {
             <a>Item 2</a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </header>
   );
 };
