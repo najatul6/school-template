@@ -3,23 +3,25 @@ import Container from "../Shared/Container/Container";
 const Stats = () => {
   return (
     <Container>
-      <div className="stats w-full">
+      <div className="w-full grid  grid-cols-2 md:grid-cols-4 gap-[30px]">
         <div className="stat place-items-center">
-          <div className="stat-title">Downloads</div>
-          <div className="stat-value">31K</div>
-          <div className="stat-desc">From January 1st to February 1st</div>
+          <div className="stat-value text-primary-color">15K</div>
+          <div className="stat-desc text-light-color font-bold">Happy Customers</div>
         </div>
 
         <div className="stat place-items-center">
-          <div className="stat-title">Users</div>
-          <div className="stat-value text-secondary">4,200</div>
-          <div className="stat-desc text-secondary">↗︎ 40 (2%)</div>
+          <div className="stat-value text-primary-color">150K</div>
+          <div className="stat-desc text-light-color font-bold">Monthly Visitors</div>
         </div>
 
         <div className="stat place-items-center">
-          <div className="stat-title">New Registers</div>
-          <div className="stat-value">1,200</div>
-          <div className="stat-desc">↘︎ 90 (14%)</div>
+          <div className="stat-value text-primary-color">15</div>
+          <div className="stat-desc text-light-color font-bold">Countries Worldwide</div>
+        </div>
+
+        <div className="stat place-items-center">
+          <div className="stat-value text-primary-color">100+</div>
+          <div className="stat-desc text-light-color font-bold">Top Partners</div>
         </div>
       </div>
     </Container>
