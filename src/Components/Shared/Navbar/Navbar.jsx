@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="sticky top-0 left-0 w-full py-[1.3rem] px-[2%] lg:py-5 lg:px-[2%] flex gap-2 lg:justify-between items-center z-[100] before:content-[''] before:top-0 before:left-0 before:absolute before:w-full before:h-full before:bg-gradient-back before:backdrop-blur-[50px] before:z-[-1] shadow-xl shadow-gradient-back ">
+    <header className="sticky top-0 left-0 w-full py-[1.3rem] px-[2%] lg:py-5 lg:px-[2%] flex gap-2 lg:justify-between items-center z-[100] before:content-[''] before:top-0 before:left-0 before:absolute before:w-full before:h-full before:bg-dark-background-color before:z-[-1] shadow-xl shadow-gradient-back ">
       <Link to="/" className="text-2xl md:text-2xl text-white font-bold">
         <span className="text-primary-color">Dream</span>School
       </Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
       <nav
         className={`${
           isOpen ? "h-[17 rem]" : " h-0 overflow-hidden "
-        } top-full  absolute left-0 w-full z-[100] bg-gradient-back backdrop-blur-2xl shadow-2xl shadow-gradient-back transition-all duration-500 lg:h-auto lg:static lg:w-auto lg:bg-inherit lg:backdrop-blur-0 lg:shadow-none delay-700 lg:delay-0`}
+        } top-full  absolute left-0 w-full z-[100] bg-dark-background-color shadow-2xl shadow-gradient-back transition-all duration-500 lg:h-auto lg:static lg:w-auto lg:bg-inherit lg:backdrop-blur-0 lg:shadow-none delay-700 lg:delay-0`}
       >
         <ul className="lg:flex lg:gap-6">
           {menu?.map((route) => (
