@@ -1,4 +1,5 @@
 import Banner from "../../Components/Banner/Banner"
+import ExpertBanner from "../../Components/ExpertBanner/ExpertBanner"
 import Stats from "../../Components/Stats/Stats"
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <div className="">
       <Banner/>
       <Stats/>
+      <ExpertBanner/>
     </div>
   )
 }
