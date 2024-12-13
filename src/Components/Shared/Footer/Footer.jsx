@@ -48,7 +48,7 @@ const Footer = () => {
           </nav>
         </div>
         <hr />
-        <p> All Right Reserved by</p>
+        <p>&copy; All Right Reserved by - Dream School</p>
       </Container>
     </footer>
   );
