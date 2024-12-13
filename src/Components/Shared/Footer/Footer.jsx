@@ -48,7 +48,7 @@ const Footer = () => {
           </nav>
         </div>
         <hr />
-        <p></p>
+        <p> All Right Reserved by</p>
       </Container>
     </footer>
   );
