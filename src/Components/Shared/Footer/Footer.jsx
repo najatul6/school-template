@@ -2,7 +2,7 @@ import Container from "../Container/Container";
 
 const Footer = () => {
   return (
-        <footer className="bg-neutral ">
+    <footer className="bg-neutral ">
       <Container>
         <div className="footer text-neutral-content grid-rows-2 p-10 place-items-center">
           <nav>
@@ -48,7 +48,7 @@ const Footer = () => {
           </nav>
         </div>
       </Container>
-        </footer>
+    </footer>
   );
 };
 
