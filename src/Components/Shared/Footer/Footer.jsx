@@ -2,10 +2,9 @@ import Container from "../Container/Container";
 
 const Footer = () => {
   return (
-    <div>
-        <footer className="footer bg-neutral text-neutral-content grid-rows-2 p-10">
+        <footer className="bg-neutral ">
       <Container>
-        <div>
+        <div className="footer text-neutral-content grid-rows-2 p-10 place-items-center">
           <nav>
             <h6 className="footer-title">Services</h6>
             <a className="link link-hover">Branding</a>
@@ -50,7 +49,6 @@ const Footer = () => {
         </div>
       </Container>
         </footer>
-    </div>
   );
 };
 
