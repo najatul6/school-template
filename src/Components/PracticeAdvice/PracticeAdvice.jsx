@@ -9,7 +9,7 @@ import icon4 from "../../assets/icons/icon cool-icon-l7.svg";
 const PracticeAdvice = () => {
   return (
     <Container>
-      <div className="">
+      <div className="space-y-12">
         <div className="w-1/2">
           <SectionHeader
             subTitle={"Practice Advice"}
