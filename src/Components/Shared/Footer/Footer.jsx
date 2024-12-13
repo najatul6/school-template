@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Container from "../Container/Container";
 
 const Footer = () => {
@@ -49,6 +50,7 @@ const Footer = () => {
         </div>
         <hr />
         <p>&copy; All Right Reserved by - Dream School</p>
+        <p>Developed By - <Link to={"http://najatulislam.me/"}>Najatul islam</Link></p>
       </Container>
     </footer>
   );
