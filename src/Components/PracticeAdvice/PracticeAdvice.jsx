@@ -27,22 +27,28 @@ const PracticeAdvice = () => {
           </div>
           <p>The gradual accumulation of information about</p>
         </div>
-        <div className="flex flex-col justify-center items-center px-10 py-[35px] gap-5">
+        <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
           <img src={icon4} alt="" />
           <h4>2,769 online courses</h4>
-          <hr className="w-1/3 border-2 border-danger-color" />
+          <div className="flex justify-start items-start w-full">
+            <hr className="w-1/3 border-2 border-danger-color" />
+          </div>
           <p>The gradual accumulation of information about</p>
         </div>
-        <div className="flex flex-col justify-center items-center px-10 py-[35px] gap-5">
+        <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
           <img src={icon2} alt="" />
-          <h4>Books Library</h4>
-          <hr className="w-1/3 border-2 border-danger-color" />
+          <h4 className="text-dark-background-color font-bold capitalize">Books Library</h4>
+          <div className="flex justify-start items-start w-full">
+            <hr className="w-1/3 border-2 border-danger-color" />
+          </div>
           <p>The gradual accumulation of information about</p>
         </div>
-        <div className="flex flex-col justify-center items-center px-10 py-[35px] gap-5">
+        <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
           <img src={icon3} alt="" />
           <h4>2,769 online courses</h4>
-          <hr className="w-1/3 border-2 border-danger-color" />
+          <div className="flex justify-start items-start w-full">
+            <hr className="w-1/3 border-2 border-danger-color" />
+          </div>
           <p>The gradual accumulation of information about</p>
         </div>
       </div>
