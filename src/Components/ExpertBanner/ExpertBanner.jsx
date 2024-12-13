@@ -9,7 +9,13 @@ const ExpertBanner = () => {
       <div className="grid grid-cols-2 gap-10 place-items-center">
         <img src={image} alt="Features Video Thumb" className="rounded-xl" />
         <div className="flex flex-col justify-start items-start">
-          <SectionHeader />
+          <SectionHeader
+            subTitle={"Features"}
+            title={"Our Experts Teacher"}
+            description={
+              "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
+            }
+          />
           <Button text="Learn More" icon={<MdKeyboardArrowRight />} />
         </div>
       </div>
