@@ -18,29 +18,31 @@ const PracticeAdvice = () => {
           }
         />
       </div>
-      <div>
-        <div className="flex flex-col justify-center items-center">
+      <div className="grid grid-cols-4 gap-[30px]">
+        <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
           <img src={icon1} alt="" />
           <h4>training Courses</h4>
-          <hr />
+          <div className="flex justify-start items-start w-full">
+            <hr className="w-1/3 border-2 border-danger-color" />
+          </div>
           <p>The gradual accumulation of information about</p>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center px-10 py-[35px] gap-5">
           <img src={icon4} alt="" />
           <h4>2,769 online courses</h4>
-          <hr />
+          <hr className="w-1/3 border-2 border-danger-color" />
           <p>The gradual accumulation of information about</p>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center px-10 py-[35px] gap-5">
           <img src={icon2} alt="" />
           <h4>Books Library</h4>
-          <hr />
+          <hr className="w-1/3 border-2 border-danger-color" />
           <p>The gradual accumulation of information about</p>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center px-10 py-[35px] gap-5">
           <img src={icon3} alt="" />
           <h4>2,769 online courses</h4>
-          <hr />
+          <hr className="w-1/3 border-2 border-danger-color" />
           <p>The gradual accumulation of information about</p>
         </div>
       </div>
