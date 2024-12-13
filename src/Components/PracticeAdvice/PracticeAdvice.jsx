@@ -1,7 +1,8 @@
+import Container from "../Shared/Container/Container"
 
 const PracticeAdvice = () => {
   return (
-    <div>PracticeAdvice</div>
+    <Container>PracticeAdvice</Container>
   )
 }
 

@@ -1,5 +1,6 @@
 import Banner from "../../Components/Banner/Banner"
 import ExpertBanner from "../../Components/ExpertBanner/ExpertBanner"
+import PracticeAdvice from "../../Components/PracticeAdvice/PracticeAdvice"
 import Stats from "../../Components/Stats/Stats"
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner/>
       <Stats/>
       <ExpertBanner/>
+      <PracticeAdvice/>
     </div>
   )
 }
