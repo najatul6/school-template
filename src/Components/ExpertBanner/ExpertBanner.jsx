@@ -6,8 +6,8 @@ import Button from "../Shared/Button/Button";
 const ExpertBanner = () => {
   return (
     <Container>
-      <div className="flex justify-center items-center gap-6">
-        <img src={image} alt="Features Video Thumb" />
+      <div className="grid grid-cols-2 gap-6">
+        <img src={image} alt="Features Video Thumb" className="rounded-xl" />
         <div>
           <SectionHeader />
           <Button text="Learn More" icon={<MdKeyboardArrowRight />} />
