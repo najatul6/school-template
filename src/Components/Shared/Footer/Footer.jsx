@@ -49,13 +49,13 @@ const Footer = () => {
           </nav>
         </div>
         <hr />
-        <div className="flex  justify-between items-center p-5 text-light-color opacity-[0.6]">
-          <p>&copy; All Right Reserved by - Dream School</p>
-          <p>
+        <div className="flex  justify-between items-center p-5 text-light-color">
+          <p className="w-full text-center">&copy; All Right Reserved by - Dream School</p>
+          <p className="w-1/2 text-right">
             Developed By -{" "}
             <Link
               to={"http://najatulislam.me/"}
-              className="text-danger-color underline capitalize font-bold opacity-100"
+              className="text-danger-color underline capitalize font-bold"
               target="_blank"
             >
               Najatul islam
