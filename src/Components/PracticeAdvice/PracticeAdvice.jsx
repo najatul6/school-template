@@ -9,47 +9,65 @@ import icon4 from "../../assets/icons/icon cool-icon-l7.svg";
 const PracticeAdvice = () => {
   return (
     <Container>
-      <div className="w-1/2">
-        <SectionHeader
-          subTitle={"Practice Advice"}
-          title={"Every Client Matters"}
-          description={
-            "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
-          }
-        />
-      </div>
-      <div className="grid grid-cols-4 gap-[30px] place-items-center">
-        <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
-          <img src={icon1} alt="" />
-          <h4 className="text-dark-background-color font-bold capitalize">training Courses</h4>
-          <div className="flex justify-start items-start w-full">
-            <hr className="w-1/3 border-2 border-danger-color" />
-          </div>
-          <p className="">The gradual accumulation of information about</p>
+      <div>
+        <div className="w-1/2">
+          <SectionHeader
+            subTitle={"Practice Advice"}
+            title={"Every Client Matters"}
+            description={
+              "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
+            }
+          />
         </div>
-        <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
-          <img src={icon4} alt="" />
-          <h4 className="text-dark-background-color font-bold capitalize">2,769 online courses</h4>
-          <div className="flex justify-start items-start w-full">
-            <hr className="w-1/3 border-2 border-danger-color" />
+        <div className="grid grid-cols-4 gap-[30px] place-items-center">
+          <div className="flex flex-col justify-start items-start px-10 py-12 gap-5 bg-light-color">
+            <img src={icon1} alt="" />
+            <h4 className="text-dark-background-color font-bold capitalize">
+              training Courses
+            </h4>
+            <div className="flex justify-start items-start w-full">
+              <hr className="w-1/3 border-2 border-danger-color" />
+            </div>
+            <p className="text-sm font-medium tracking-[0.2px] text-dark-background-color opacity-[0.6]">
+              The gradual accumulation of information about
+            </p>
           </div>
-          <p className="">The gradual accumulation of information about</p>
-        </div>
-        <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
-          <img src={icon2} alt="" />
-          <h4 className="text-dark-background-color font-bold capitalize">Books Library</h4>
-          <div className="flex justify-start items-start w-full">
-            <hr className="w-1/3 border-2 border-danger-color" />
+          <div className="flex flex-col justify-start items-start px-10 py-12 gap-5 bg-light-color">
+            <img src={icon4} alt="" />
+            <h4 className="text-dark-background-color font-bold capitalize">
+              2,769 online courses
+            </h4>
+            <div className="flex justify-start items-start w-full">
+              <hr className="w-1/3 border-2 border-danger-color" />
+            </div>
+            <p className="text-sm font-medium tracking-[0.2px] text-dark-background-color opacity-[0.6]">
+              The gradual accumulation of information about
+            </p>
           </div>
-          <p className="">The gradual accumulation of information about</p>
-        </div>
-        <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
-          <img src={icon3} alt="" />
-          <h4 className="text-dark-background-color font-bold capitalize">2,769 online courses</h4>
-          <div className="flex justify-start items-start w-full">
-            <hr className="w-1/3 border-2 border-danger-color" />
+          <div className="flex flex-col justify-start items-start px-10 py-12 gap-5 bg-light-color">
+            <img src={icon2} alt="" />
+            <h4 className="text-dark-background-color font-bold capitalize">
+              Books Library
+            </h4>
+            <div className="flex justify-start items-start w-full">
+              <hr className="w-1/3 border-2 border-danger-color" />
+            </div>
+            <p className="text-sm font-medium tracking-[0.2px] text-dark-background-color opacity-[0.6]">
+              The gradual accumulation of information about
+            </p>
           </div>
-          <p className="">The gradual accumulation of information about</p>
+          <div className="flex flex-col justify-start items-start px-10 py-12 gap-5 bg-light-color">
+            <img src={icon3} alt="" />
+            <h4 className="text-dark-background-color font-bold capitalize">
+              2,769 online courses
+            </h4>
+            <div className="flex justify-start items-start w-full">
+              <hr className="w-1/3 border-2 border-danger-color" />
+            </div>
+            <p className="text-sm font-medium tracking-[0.2px] text-dark-background-color opacity-[0.6]">
+              The gradual accumulation of information about
+            </p>
+          </div>
         </div>
       </div>
     </Container>
