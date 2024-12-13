@@ -5,7 +5,7 @@ import Stats from "../../Components/Stats/Stats"
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="space-y-[120px]">
       <Banner/>
       <Stats/>
       <ExpertBanner/>
