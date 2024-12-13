@@ -19,25 +19,25 @@ const PracticeAdvice = () => {
         />
       </div>
       <div>
-        <div className="">
+        <div className="flex flex-col justify-center items-center">
           <img src={icon1} alt="" />
           <h4>training Courses</h4>
           <hr />
           <p>The gradual accumulation of information about</p>
         </div>
-        <div className="">
+        <div className="flex flex-col justify-center items-center">
           <img src={icon4} alt="" />
           <h4>2,769 online courses</h4>
           <hr />
           <p>The gradual accumulation of information about</p>
         </div>
-        <div className="">
+        <div className="flex flex-col justify-center items-center">
           <img src={icon2} alt="" />
           <h4>Books Library</h4>
           <hr />
           <p>The gradual accumulation of information about</p>
         </div>
-        <div className="">
+        <div className="flex flex-col justify-center items-center">
           <img src={icon3} alt="" />
           <h4>2,769 online courses</h4>
           <hr />
