@@ -47,6 +47,7 @@ const Footer = () => {
             <a className="link link-hover">iPhone</a>
             <a className="link link-hover">Android</a>
           </nav>
+        </div>
       </Container>
         </footer>
     </div>
