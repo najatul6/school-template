@@ -25,12 +25,15 @@ const PracticeAdvice = () => {
         </div>
         <div>
             <img src={icon4} alt="" />
+            <h4>2,769 online courses</h4>
         </div>
         <div>
             <img src={icon2} alt="" />
+            <h4>Books Library</h4>
         </div>
         <div>
             <img src={icon3} alt="" />
+            <h4>2,769 online courses</h4>
         </div>
       </div>
     </Container>
