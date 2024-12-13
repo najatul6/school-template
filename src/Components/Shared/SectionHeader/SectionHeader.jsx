@@ -1,4 +1,4 @@
-const SectionHeader = () => {
+const SectionHeader = ({subTitle,title, description}) => {
   return (
     <div className="text-white flex gap-6 flex-col justify-center items-start">
       <h6 className="text-primary-color text-sm font-bold tracking-[0.2px]">
