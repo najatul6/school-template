@@ -1,14 +1,14 @@
-
 const SectionHeader = () => {
   return (
-    <div>
-      <h6>Feature</h6>
-      <h1>Our Experts Teacher</h1>
-      <p>
+    <div className="text-white">
+      <h6 className="text-primary-color text-sm font-bold tracking-[0.2px]">
+        Feature
+      </h6>
+      <h1 className="text-[40px] font-bold capitalize">Our Experts Teacher</h1>
+      <p className="text-sm tracking-[0.2px] capitalize">
         Problems trying to resolve the conflict between the two major realms of
-        Classical physics: Newtonian mechanics{" "}
+        Classical physics: Newtonian mechanics
       </p>
-     
     </div>
   );
 };
