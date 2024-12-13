@@ -18,7 +18,7 @@ const PracticeAdvice = () => {
           }
         />
       </div>
-      <div className="grid grid-cols-4 gap-[30px]">
+      <div className="grid grid-cols-4 gap-[30px] place-items-center">
         <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
           <img src={icon1} alt="" />
           <h4>training Courses</h4>
