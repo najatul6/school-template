@@ -21,19 +21,19 @@ const PracticeAdvice = () => {
       <div className="grid grid-cols-4 gap-[30px] place-items-center">
         <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
           <img src={icon1} alt="" />
-          <h4>training Courses</h4>
+          <h4 className="text-dark-background-color font-bold capitalize">training Courses</h4>
           <div className="flex justify-start items-start w-full">
             <hr className="w-1/3 border-2 border-danger-color" />
           </div>
-          <p>The gradual accumulation of information about</p>
+          <p className="">The gradual accumulation of information about</p>
         </div>
         <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
           <img src={icon4} alt="" />
-          <h4>2,769 online courses</h4>
+          <h4 className="text-dark-background-color font-bold capitalize">2,769 online courses</h4>
           <div className="flex justify-start items-start w-full">
             <hr className="w-1/3 border-2 border-danger-color" />
           </div>
-          <p>The gradual accumulation of information about</p>
+          <p className="">The gradual accumulation of information about</p>
         </div>
         <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
           <img src={icon2} alt="" />
@@ -41,15 +41,15 @@ const PracticeAdvice = () => {
           <div className="flex justify-start items-start w-full">
             <hr className="w-1/3 border-2 border-danger-color" />
           </div>
-          <p>The gradual accumulation of information about</p>
+          <p className="">The gradual accumulation of information about</p>
         </div>
         <div className="flex flex-col justify-start items-start px-10 py-[35px] gap-5 bg-light-color">
           <img src={icon3} alt="" />
-          <h4>2,769 online courses</h4>
+          <h4 className="text-dark-background-color font-bold capitalize">2,769 online courses</h4>
           <div className="flex justify-start items-start w-full">
             <hr className="w-1/3 border-2 border-danger-color" />
           </div>
-          <p>The gradual accumulation of information about</p>
+          <p className="">The gradual accumulation of information about</p>
         </div>
       </div>
     </Container>
