@@ -34,7 +34,7 @@ const Navbar = () => {
                 isOpen
                   ? "translate-y-0 transition-all duration-300"
                   : "translate-y-[-50px] transition-all duration-500"
-              } text-light-color font-bold text-sm lg:text-sm my-[1.5rem] lg:my-0 mx-0 lg:ml-10 block text-center duration-500 transition lg:translate-y-0 `}
+              } text-light-color font-bold text-sm lg:text-sm my-[1rem] lg:my-0 mx-0 lg:ml-10 block text-center duration-500 transition lg:translate-y-0 `}
             >
               <NavLink
                 onClick={() => setIsOpen(!isOpen)}
