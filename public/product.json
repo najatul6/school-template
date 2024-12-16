@@ -1,6 +1,7 @@
 [
     {
         "id": "kfi_r_47h-it",
+        "title":"Welcome",
         "name": "Expert instruction",
         "description":"We focus on ergonomics and meeting you where you are. We offer a variety of classes and workshops to help you get started.",
         "totalSell": "15",
@@ -11,7 +12,8 @@
     },
     {
         "id": "kfi_r_47h-it",
-        "name": "Expert instruction",
+        "title":"For Better Future",
+        "name": "2,769 online courses",
         "description":"We focus on ergonomics and meeting you where you are. We offer a variety of classes and workshops to help you get started.",
         "totalSell": "15",
         "price": "16.48",
@@ -21,7 +23,8 @@
     },
     {
         "id": "kfi_r_47h-it",
-        "name": "Expert instruction",
+        "title":"Welcome",
+        "name": "Training Courses",
         "description":"We focus on ergonomics and meeting you where you are. We offer a variety of classes and workshops to help you get started.",
         "totalSell": "15",
         "price": "16.48",
@@ -31,7 +34,8 @@
     },
     {
         "id": "kfi_r_47h-it",
-        "name": "Expert instruction",
+        "title":"For Better Future",
+        "name": "Lifetime access",
         "description":"We focus on ergonomics and meeting you where you are. We offer a variety of classes and workshops to help you get started.",
         "totalSell": "15",
         "price": "16.48",
