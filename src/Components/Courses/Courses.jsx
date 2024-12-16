@@ -16,7 +16,6 @@ const Courses = () => {
         setLoading(false);
       });
   }, []);
-  console.log(courses.length);
   return (
     <Container>
       <div className="w-1/2">
