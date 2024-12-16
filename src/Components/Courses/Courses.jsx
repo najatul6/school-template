@@ -9,7 +9,7 @@ const Courses = () => {
   const [courses, setCourses] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("/courses.json")
+    fetch("/product.json")
       .then((response) => response.json())
       .then((data) => {
         setCourses(data);
