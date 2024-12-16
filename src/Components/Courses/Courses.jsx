@@ -3,6 +3,7 @@ import Container from "../Shared/Container/Container";
 import SectionHeader from "../Shared/SectionHeader/SectionHeader";
 import { useEffect } from "react";
 import LoadingCard from "../Shared/LoadingCard/LoadingCard";
+import ProductCard from "../Shared/ProductCard/ProductCard";
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
@@ -26,28 +27,7 @@ const Courses = () => {
           }
         />
       </div>
-      <div>
-        {loading ? (
-          <LoadingCard />
-        ) : (
-          courses.map((course, id) => {
-            return (
-              <div key={id} className="flex w-52 flex-col gap-4">
-                <img
-                  src={course.image}
-                  alt={course.title}
-                  className="h-32 w-full object-cover"
-                />
-                <h2 className="text-lg font-semibold">{course.title}</h2>
-                <p className="text-sm text-gray-500">{course.description}</p>
-                <p className="text-sm text-gray-500">
-                  {course.lessons} lessons
-                </p>
-              </div>
-            );
-          })
-        )}
-      </div>
+      <div>{loading ? <LoadingCard /> : <div>{courses.map((course)=><div key={course?.id}><ProductCard course={course}/></div>)}</div>}</div>
     </Container>
   );
 };
