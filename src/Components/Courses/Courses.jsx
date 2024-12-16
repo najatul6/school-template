@@ -19,35 +19,35 @@ const Courses = () => {
   console.log(courses.length);
   return (
     <Container>
-    <div className="w-1/2">
-      <SectionHeader
-        title={"Most Popular Courses"}
-        subTitle={"Courses"}
-        description={
-          "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics"
-        }
-      />
-    </div>
-    <div>
-      {loading ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {Array(4)
-            .fill(null)
-            .map((_, index) => (
-              <LoadingCard key={index} />
+      <div className="w-1/2">
+        <SectionHeader
+          title={"Most Popular Courses"}
+          subTitle={"Courses"}
+          description={
+            "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics"
+          }
+        />
+      </div>
+      <div>
+        {loading ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {Array(4)
+              .fill(null)
+              .map((_, index) => (
+                <LoadingCard key={index} />
+              ))}
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {courses.map((course) => (
+              <div key={course?.id}>
+                <ProductCard course={course} />
+              </div>
             ))}
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {courses.map((course) => (
-            <div key={course?.id}>
-              <ProductCard course={course} />
-            </div>
-          ))}
-        </div>
-      )}
-    </div>
-  </Container>
+          </div>
+        )}
+      </div>
+    </Container>
   );
 };
 
