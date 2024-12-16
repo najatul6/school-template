@@ -26,7 +26,7 @@ const Courses = () => {
         />
       </div>
       <div>
-
+          
       </div>
     </Container>
   );
