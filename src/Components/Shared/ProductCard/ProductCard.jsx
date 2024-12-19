@@ -5,7 +5,7 @@ const ProductCard = ({ course }) => {
   return (
     <div>
       <div>
-        <img src="https://via.placeholder.com/150" alt="product" />
+        <img src={course?.image} alt="product" />
         <p>Sale</p>
         <div>
           <div>
