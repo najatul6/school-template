@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { FaArrowRight, FaEye, FaRegHeart, FaStar } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 import Button from "../Button/Button";
+import { FiDownload } from "react-icons/fi";
 
 const ProductCard = ({ course }) => {
   const {
@@ -47,7 +48,7 @@ const ProductCard = ({ course }) => {
         {/* Description */}
         <h2 className="font-bold text-dark-background-color">{name}</h2>
         <p>{description}</p>
-        <p>{totalSell}</p>
+        <p><FiDownload /> {totalSell} Sales</p>
         <div>
           <p>{price}</p>
           <p>{discountPrice}</p>
