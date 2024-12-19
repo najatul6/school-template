@@ -1,8 +1,10 @@
 
-const ProductCard = () => {
+const ProductCard = ({course}) => {
   return (
     <div>
-      <div></div>
+      <div>
+        <img src="https://via.placeholder.com/150" alt="product" />
+      </div>
     </div>
   )
 }
