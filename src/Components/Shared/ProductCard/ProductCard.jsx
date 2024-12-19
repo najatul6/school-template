@@ -34,7 +34,7 @@ const ProductCard = ({ course }) => {
       </div>
       <div>
         <div>
-          <h4>{title}</h4>
+          <h4 className="font-bold text-primary-color">{title}</h4>
           <div>
             <p>
               <FaStar />
