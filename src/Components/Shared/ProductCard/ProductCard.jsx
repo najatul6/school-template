@@ -33,7 +33,7 @@ const ProductCard = ({ course }) => {
           </div>
         </div>
       </div>
-      <div className="bg-light-color p-[25px]">
+      <div className="bg-light-color p-[25px] space-y-[10px]">
         {/* Title and Starts */}
         <div className="flex justify-between ">
           <h4 className="font-bold text-primary-color">{title}</h4>
@@ -46,7 +46,7 @@ const ProductCard = ({ course }) => {
         </div>
         {/* Description */}
         <div>
-          <h2>{name}</h2>
+          <h2 className="font-bold">{name}</h2>
           <p>{description}</p>
           <p>{totalSell}</p>
           <div>
