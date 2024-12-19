@@ -45,16 +45,14 @@ const ProductCard = ({ course }) => {
           </div>
         </div>
         {/* Description */}
+        <h2 className="font-bold text-dark-background-color">{name}</h2>
+        <p>{description}</p>
+        <p>{totalSell}</p>
         <div>
-          <h2 className="font-bold text-dark-background-color">{name}</h2>
-          <p>{description}</p>
-          <p>{totalSell}</p>
-          <div>
           <p>{price}</p>
           <p>{discountPrice}</p>
-          </div>
-          <Button text="Learn More" icon={<FaArrowRight/>} withOutBg/>
         </div>
+        <Button text="Learn More" icon={<FaArrowRight />} withOutBg />
       </div>
     </div>
   );
