@@ -1,4 +1,4 @@
-import { FaRegHeart } from "react-icons/fa"
+import { FaEye, FaRegHeart } from "react-icons/fa"
 import { IoCartOutline } from "react-icons/io5"
 
 const ProductCard = ({course}) => {
@@ -10,6 +10,7 @@ const ProductCard = ({course}) => {
         <div>
           <FaRegHeart/> 
           <IoCartOutline />
+          <FaEye />
         </div>
       </div>
     </div>
