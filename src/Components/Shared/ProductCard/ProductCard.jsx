@@ -35,7 +35,7 @@ const ProductCard = ({ course }) => {
       </div>
       <div className="bg-light-color p-[25px] space-y-[10px]">
         {/* Title and Starts */}
-        <div className="flex justify-between ">
+        <div className="flex justify-between">
           <h4 className="font-bold text-primary-color">{title}</h4>
           <div className="flex gap-2 bg-dark-background-color py-[5px] px-[10px] rounded-full">
             <p className="text-yellow-500">
