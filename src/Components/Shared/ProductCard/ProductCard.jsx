@@ -15,7 +15,7 @@ const ProductCard = ({ course }) => {
   } = course;
   return (
     <div>
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden border">
         <img src={image} alt={name} className="w-full" />
         <p className="absolute top-5 left-5 p-1 bg-danger-color font-bold rounded-md text-light-color">
           Sale
@@ -32,16 +32,18 @@ const ProductCard = ({ course }) => {
           </div>
         </div>
       </div>
-      <div>
-        <div>
+      <div className="bg-light-color p-[25px]">
+        {/* Title and Starts */}
+        <div className="flex justify-between ">
           <h4 className="font-bold text-primary-color">{title}</h4>
-          <div>
-            <p>
+          <div className="flex gap-2 bg-dark-background-color py-[5px] px-[10px] rounded-full">
+            <p className="text-yellow-500">
               <FaStar />
             </p>
-            <p>{rating}</p>
+            <p className="text-xs text-light-color">{rating}</p>
           </div>
         </div>
+        {/* Description */}
         <div>
           <p>{price}</p>
           <p>{discountPrice}</p>
