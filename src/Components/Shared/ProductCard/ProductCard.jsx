@@ -50,7 +50,7 @@ const ProductCard = ({ course }) => {
         <p className="opacity-[0.5]">{description.length > 50 ? `${description.slice(0, 50)}...` : description}</p>
         <p className="flex gap-2 items-center font-bold"><FiDownload /> {totalSell} Sales</p>
         <div className="flex items-center gap-2 font-bold">
-          <p className="truncate">$ {price}</p>
+          <del className="opacity-[0.6]">$ {price}</del>
           <p className="text-danger-color">$ {discountPrice}</p>
         </div>
         <Button text="Learn More" icon={<FaArrowRight />} withOutBg />
