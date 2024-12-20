@@ -34,7 +34,7 @@ const ProductCard = ({ course }) => {
           </div>
         </div>
       </div>
-      <div className="bg-light-color p-[25px] space-y-[10px]">
+      <div className="bg-light-color p-[25px] space-y-[10px] text-dark-background-color">
         {/* Title and Starts */}
         <div className="flex justify-between">
           <h4 className="font-bold text-sm text-primary-color">{title}</h4>
@@ -47,8 +47,8 @@ const ProductCard = ({ course }) => {
         </div>
         {/* Description */}
         <h2 className="font-bold text-dark-background-color">{name}</h2>
-        <p>{description}</p>
-        <p><FiDownload /> {totalSell} Sales</p>
+        <p className="opacity-[0.5]">{description}</p>
+        <p className="flex gap-2 items-center font-bold"><FiDownload /> {totalSell} Sales</p>
         <div>
           <p>{price}</p>
           <p>{discountPrice}</p>
