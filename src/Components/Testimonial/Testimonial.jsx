@@ -2,6 +2,7 @@ import Marquee from "react-fast-marquee";
 import Container from "../Shared/Container/Container";
 import SectionHeader from "../Shared/SectionHeader/SectionHeader";
 import { useEffect, useState } from "react";
+import { Rating } from "@smastrom/react-rating";
 
 const Testimonial = () => {
   const [testimonials, setTestimonials] = useState([]);
@@ -30,7 +31,7 @@ const Testimonial = () => {
             <p>Loading...</p>
           ) : (
             testimonials.map((testimonial, index) => (
-              <div key={index} className="flex flex-col gap-5">
+              <div key={index} className="flex justify-center items-center gap-6">
                 <div className="flex flex-col justify-center items-center gap-5 bg-light-color">
                   <img
                     src={testimonial.profilePic}
@@ -40,6 +41,7 @@ const Testimonial = () => {
                     <p className="text-sm font-medium tracking-[0.2px]  opacity-[0.6]">
                       {testimonial.description}
                     </p>
+                    <Rating style={{ maxWidth: 250 }} value={testimonial.rating}  />
                 </div>
                 <p className="text-sm font-medium tracking-[0.2px] text-dark-background-color">
                   {testimonial.review}
