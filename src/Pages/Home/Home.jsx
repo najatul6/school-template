@@ -1,6 +1,7 @@
 import Banner from "../../Components/Banner/Banner"
 import Courses from "../../Components/Courses/Courses"
 import ExpertBanner from "../../Components/ExpertBanner/ExpertBanner"
+import PopularCourse from "../../Components/PopularCourse/PopularCourse"
 import PracticeAdvice from "../../Components/PracticeAdvice/PracticeAdvice"
 import Stats from "../../Components/Stats/Stats"
 
@@ -12,6 +13,7 @@ const Home = () => {
       <ExpertBanner/>
       <PracticeAdvice/>
       <Courses/>
+      <PopularCourse/>
     </div>
   )
 }
