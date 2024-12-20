@@ -4,6 +4,7 @@ import ExpertBanner from "../../Components/ExpertBanner/ExpertBanner"
 import PopularCourse from "../../Components/PopularCourse/PopularCourse"
 import PracticeAdvice from "../../Components/PracticeAdvice/PracticeAdvice"
 import Stats from "../../Components/Stats/Stats"
+import Testimonial from "../../Components/Testimonial/Testimonial"
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <PracticeAdvice/>
       <Courses/>
       <PopularCourse/>
+      <Testimonial/>
     </div>
   )
 }
