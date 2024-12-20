@@ -26,40 +26,43 @@ const Testimonial = () => {
           "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
         }
       />
-      <div>
-        <Marquee>
+      <Marquee speed={120}>
+        <div className="flex gap-6 w-full justify-center items-center  mt-10">
           {loading ? (
             <p>Loading...</p>
           ) : (
             testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="flex justify-center items-center gap-6"
+                className="flex flex-col justify-center items-center gap-5 bg-light-color p-[25px]"
               >
-                <div className="flex flex-col justify-center items-center gap-5 bg-light-color p-[25px]">
-                  <img
-                    src={testimonial.profilePic}
-                    alt={testimonial.name}
-                    className="w-[128px] h-[128px] rounded-full"
-                  />
-                  <p className="text-sm font-medium tracking-[0.2px] text-center w-2/3">
-                    {testimonial.description}
-                  </p>
-
-                  <Rating
-                    style={{ maxWidth: 150 }}
-                    value={testimonial?.rating}
-                    readOnly
-                  />
-                </div>
-                <p className="text-sm font-medium tracking-[0.2px] text-dark-background-color">
-                  {testimonial.rating}
+                <img
+                  src={testimonial.profilePic}
+                  alt={testimonial.name}
+                  className="w-[68px] h-[68px] rounded-full"
+                />
+                <p className="text-sm text-dark-background-color font-medium tracking-[0.2px] text-center w-2/3 mx-auto">
+                  {testimonial.description}
                 </p>
+
+                <Rating
+                  style={{ maxWidth: 150 }}
+                  value={testimonial?.rating}
+                  readOnly
+                />
+                <div className="flex flex-col justify-center items-center gap-2">
+                  <p className="font-bold tracking-[0.2px] text-dark-background-color">
+                    {testimonial.name}
+                  </p>
+                  <p className="text-sm tracking-[0.2px] text-dark-background-color">
+                    {testimonial.position}
+                  </p>
+                </div>
               </div>
             ))
           )}
-        </Marquee>
-      </div>
+        </div>
+      </Marquee>
     </Container>
   );
 };
