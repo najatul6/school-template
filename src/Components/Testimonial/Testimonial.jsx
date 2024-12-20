@@ -1,3 +1,4 @@
+import Marquee from "react-fast-marquee";
 import Container from "../Shared/Container/Container";
 import SectionHeader from "../Shared/SectionHeader/SectionHeader";
 
@@ -11,7 +12,9 @@ const Testimonial = () => {
           "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
         }
       />
-      
+      <div>
+        <Marquee></Marquee>
+      </div>
     </Container>
   );
 };
