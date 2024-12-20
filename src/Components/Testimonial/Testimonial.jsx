@@ -31,17 +31,27 @@ const Testimonial = () => {
             <p>Loading...</p>
           ) : (
             testimonials.map((testimonial, index) => (
-              <div key={index} className="flex justify-center items-center gap-6">
-                <div className="flex flex-col justify-center items-center gap-5 bg-light-color">
+              <div
+                key={index}
+                className="flex justify-center items-center gap-6"
+              >
+                <div className="flex flex-col justify-center items-center gap-5 bg-light-color p-[25px]">
                   <img
                     src={testimonial.profilePic}
                     alt={testimonial.name}
-                    className="w-[50px] h-[50px] rounded-full"
+                    className="w-[128px] h-[128px] rounded-full"
                   />
-                    <p className="text-sm font-medium tracking-[0.2px]  opacity-[0.6]">
-                      {testimonial.description}
-                    </p>
-                    <Rating style={{ maxWidth: 250 }} value={testimonial.rating}  />
+                  <p className="text-sm font-medium tracking-[0.2px] text-center">
+                    {testimonial.description}
+                  </p>
+
+                  <div className="bg-danger-color">
+                    <Rating
+                      
+                      value={testimonial.rating}
+                      readOnly
+                    />
+                  </div>
                 </div>
                 <p className="text-sm font-medium tracking-[0.2px] text-dark-background-color">
                   {testimonial.review}
