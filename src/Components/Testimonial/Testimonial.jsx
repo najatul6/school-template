@@ -3,6 +3,7 @@ import Container from "../Shared/Container/Container";
 import SectionHeader from "../Shared/SectionHeader/SectionHeader";
 import { useEffect, useState } from "react";
 import { Rating } from "@smastrom/react-rating";
+import "@smastrom/react-rating/style.css";
 
 const Testimonial = () => {
   const [testimonials, setTestimonials] = useState([]);
@@ -41,20 +42,18 @@ const Testimonial = () => {
                     alt={testimonial.name}
                     className="w-[128px] h-[128px] rounded-full"
                   />
-                  <p className="text-sm font-medium tracking-[0.2px] text-center">
+                  <p className="text-sm font-medium tracking-[0.2px] text-center w-2/3">
                     {testimonial.description}
                   </p>
 
-                  <div className="bg-danger-color">
-                    <Rating
-                      
-                      value={testimonial.rating}
-                      readOnly
-                    />
-                  </div>
+                  <Rating
+                    style={{ maxWidth: 150 }}
+                    value={testimonial?.rating}
+                    readOnly
+                  />
                 </div>
                 <p className="text-sm font-medium tracking-[0.2px] text-dark-background-color">
-                  {testimonial.review}
+                  {testimonial.rating}
                 </p>
               </div>
             ))
