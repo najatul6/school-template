@@ -47,11 +47,11 @@ const ProductCard = ({ course }) => {
         </div>
         {/* Description */}
         <h2 className="font-bold text-dark-background-color">{name}</h2>
-        <p className="opacity-[0.5]">{description}</p>
+        <p className="opacity-[0.5]">{description.length > 50 ? `${description.slice(0, 50)}...` : description}</p>
         <p className="flex gap-2 items-center font-bold"><FiDownload /> {totalSell} Sales</p>
-        <div>
-          <p>{price}</p>
-          <p>{discountPrice}</p>
+        <div className="flex items-center gap-2 font-bold">
+          <p className="truncate">$ {price}</p>
+          <p className="text-danger-color">$ {discountPrice}</p>
         </div>
         <Button text="Learn More" icon={<FaArrowRight />} withOutBg />
       </div>
