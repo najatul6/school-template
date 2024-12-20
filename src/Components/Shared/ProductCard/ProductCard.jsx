@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
-import { FaArrowRight, FaEye, FaRegHeart, FaStar } from "react-icons/fa";
+import {  FaEye, FaRegHeart, FaStar } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 import Button from "../Button/Button";
 import { FiDownload } from "react-icons/fi";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 const ProductCard = ({ course }) => {
   const {
@@ -53,7 +54,7 @@ const ProductCard = ({ course }) => {
           <del className="opacity-[0.6]">$ {price}</del>
           <p className="text-danger-color">$ {discountPrice}</p>
         </div>
-        <Button text="Learn More" icon={<FaArrowRight />} withOutBg />
+        <Button text="Learn More" icon={<MdKeyboardArrowRight  />} withOutBg />
       </div>
     </div>
   );
