@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -40,5 +41,10 @@ const TeamCard = ({ member }) => {
     </div>
   );
 };
+
+TeamCard.propTypes = {
+    member: PropTypes.object.isRequired,
+
+}
 
 export default TeamCard;
