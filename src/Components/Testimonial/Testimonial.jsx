@@ -34,7 +34,7 @@ const Testimonial = () => {
             testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="flex flex-col justify-center items-center gap-5 bg-light-color p-[25px]"
+                className="flex flex-col justify-center items-center gap-5 bg-light-color px-[20px] py-[25px]"
               >
                 <img
                   src={testimonial.profilePic}
