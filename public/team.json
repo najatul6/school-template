@@ -6,12 +6,7 @@
     "position": "Team Leader",
     "facebook": "https://facebook.com/najatul6",
     "instagram": "https://instagram.com/najatulislam1",
-    "twitter": "https://twitter.com/MNajatul",
-    "icons": {
-      "facebook": "fab fa-facebook",
-      "instagram": "fab fa-instagram",
-      "twitter": "fab fa-twitter"
-    }
+    "twitter": "https://twitter.com/MNajatul"
   },
   {
     "_id": "2",
@@ -20,12 +15,7 @@
     "position": "UI/UX Designer",
     "facebook": "https://facebook.com/najatul6",
     "instagram": "https://instagram.com/najatulislam1",
-    "twitter": "https://twitter.com/MNajatul",
-    "icons": {
-      "facebook": "fab fa-facebook",
-      "instagram": "fab fa-instagram",
-      "twitter": "fab fa-twitter"
-    }
+    "twitter": "https://twitter.com/MNajatul"
   },
   {
     "_id": "3",
@@ -34,12 +24,7 @@
     "position": "Frontend Developer",
     "facebook": "https://facebook.com/najatul6",
     "instagram": "https://instagram.com/najatulislam1",
-    "twitter": "https://twitter.com/MNajatul",
-    "icons": {
-      "facebook": "fab fa-facebook",
-      "instagram": "fab fa-instagram",
-      "twitter": "fab fa-twitter"
-    }
+    "twitter": "https://twitter.com/MNajatul"
   },
   {
     "_id": "4",
@@ -48,11 +33,6 @@
     "position": "Backend Developer",
     "facebook": "https://facebook.com/najatul6",
     "instagram": "https://instagram.com/najatulislam1",
-    "twitter": "https://twitter.com/MNajatul",
-    "icons": {
-      "facebook": "fab fa-facebook",
-      "instagram": "fab fa-instagram",
-      "twitter": "fab fa-twitter"
-    }
+    "twitter": "https://twitter.com/MNajatul"
   }
 ]
