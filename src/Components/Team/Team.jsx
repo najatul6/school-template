@@ -1,8 +1,11 @@
 import Container from "../Shared/Container/Container"
+import SectionHeader from "../Shared/SectionHeader/SectionHeader"
 
 const Team = () => {
   return (
-    <Container>Team</Container>
+    <Container>
+      <SectionHeader title={""} subTitle={"Team"} description={""}/>
+    </Container>
   )
 }
 
