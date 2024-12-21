@@ -2,6 +2,7 @@ import { useState } from "react";
 import Container from "../Shared/Container/Container";
 import SectionHeader from "../Shared/SectionHeader/SectionHeader";
 import { useEffect } from "react";
+import TeamCard from "./TeamCard";
 
 const Team = () => {
   const [team, setTeam] = useState([]);
@@ -46,17 +47,7 @@ const Team = () => {
       ))
   ) : (
     team?.map((member) => (
-      <div key={member._id} className="bg-white p-6 rounded-lg">
-        <img
-          src={member.image}
-          alt={member.name}
-          className="w-full h-[200px] object-cover rounded-lg"
-        />
-        <div className="mt-4">
-          <h4 className="text-lg font-semibold">{member.name}</h4>
-          <p className="text-sm text-gray-500">{member.position}</p>
-        </div>
-      </div>
+      <TeamCard key={member.id} member={member} />
     ))
   )}
 </div>
