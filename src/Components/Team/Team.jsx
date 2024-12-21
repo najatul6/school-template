@@ -6,13 +6,17 @@ import { useEffect } from "react";
 const Team = () => {
   const [team, setTeam] = useState([]);
   const [loading, setLoading] = useState(true);
-  useEffect(() => {
+ useEffect(()=>{
     fetch("/team.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setTeam(data);
-        setLoading(false);
-  }, []);
+    .then((response) => response.json())
+    .then((data) => {
+      setTeam(data);
+      setLoading(false);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+ },[])
   return (
     <Container>
       <div>
@@ -26,6 +30,6 @@ const Team = () => {
       </div>
     </Container>
   );
-};
+}
 
 export default Team;
