@@ -26,8 +26,8 @@ const Testimonial = () => {
           "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
         }
       />
-      <Marquee speed={120}>
-        <div className="flex gap-6 w-full justify-center items-center  mt-10">
+      <Marquee speed={120} pauseOnHover={true}>
+        <div className="flex gap-6 w-full justify-center items-center  mt-10 ml-5">
           {loading ? (
             <p>Loading...</p>
           ) : (
