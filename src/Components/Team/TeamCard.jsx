@@ -10,7 +10,7 @@ const TeamCard = ({ member }) => {
       </div>
       <div className="mt-4">
         <h4 className="text-dark-background-color text-center font-bold">{member.name}</h4>
-        <p className="text-sm text-gray-500">{member.position}</p>
+        <p className="text-xs text-[#737373] text-center">{member.position}</p>
       </div>
     </div>
   );
