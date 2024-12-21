@@ -12,7 +12,7 @@ const TeamCard = ({ member }) => {
           className="w-full h-full rounded-t-lg"
         />
       </div>
-      <div className="p-[30px]">
+      <div className="p-[30px] space-y-[10px]">
         <h4 className="text-dark-background-color text-center font-bold">
           {member?.name}
         </h4>
