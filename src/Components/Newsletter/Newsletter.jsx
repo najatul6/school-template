@@ -21,7 +21,9 @@ const Newsletter = () => {
             className="input input-bordered join-item text-white placeholder:text-white focus:outline-none"
             placeholder="Email"
           />
-          <button className="btn bg-primary-color text-white hover:bg-dark-background-color join-item rounded-r-full">Subscribe</button>
+          <button className="btn bg-primary-color text-white hover:bg-dark-background-color join-item rounded-r-full">
+            Subscribe
+          </button>
         </div>
       </div>
     </Container>
