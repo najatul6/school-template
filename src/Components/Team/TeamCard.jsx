@@ -4,19 +4,19 @@ import { Link } from "react-router-dom";
 const TeamCard = ({ member }) => {
   return (
     <div  className="bg-white rounded-lg">
-      <div className="h-[230px]  rounded-t-lg">
+      <div className="h-[230px] w-full overflow-hidden rounded-t-lg">
         <img
           src={member?.image}
           alt={member?.name}
           className="w-full h-full rounded-t-lg"
         />
       </div>
-      <div className="mt-4">
+      <div className="p-[30px]">
         <h4 className="text-dark-background-color text-center font-bold">
           {member?.name}
         </h4>
         <p className="text-xs text-[#737373] text-center">{member.position}</p>
-        <div>
+        <div className="flex justify-center gap-4">
           <Link to={member?.facebook}>
             <FaFacebook
               size={24}
