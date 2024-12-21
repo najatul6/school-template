@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const TeamCard = ({ member }) => {
   return (
-    <div  className="bg-white rounded-lg">
+    <div className="bg-white rounded-lg">
       <div className="h-[230px] w-full overflow-hidden rounded-t-lg">
         <img
           src={member?.image}
@@ -43,8 +43,7 @@ const TeamCard = ({ member }) => {
 };
 
 TeamCard.propTypes = {
-    member: PropTypes.object.isRequired,
-
-}
+  member: PropTypes.object.isRequired,
+};
 
 export default TeamCard;
