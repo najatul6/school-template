@@ -1,7 +1,13 @@
+import Container from "../Shared/Container/Container"
+import SectionHeader from "../Shared/SectionHeader/SectionHeader"
 
 const Newsletter = () => {
   return (
-    <div>Newsletter</div>
+    <Container>
+        <div>
+            <SectionHeader/>
+        </div>
+    </Container>
   )
 }
 
