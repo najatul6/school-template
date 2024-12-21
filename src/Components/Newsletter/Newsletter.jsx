@@ -1,14 +1,14 @@
-import Container from "../Shared/Container/Container"
-import SectionHeader from "../Shared/SectionHeader/SectionHeader"
+import Container from "../Shared/Container/Container";
+import SectionHeader from "../Shared/SectionHeader/SectionHeader";
 
 const Newsletter = () => {
   return (
     <Container>
-        <div>
-            <SectionHeader/>
-        </div>
+      <div>
+        <SectionHeader description={""} subTitle={""} title={""} />
+      </div>
     </Container>
-  )
-}
+  );
+};
 
-export default Newsletter
+export default Newsletter;
