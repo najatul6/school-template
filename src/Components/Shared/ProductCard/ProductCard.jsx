@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import {  FaEye, FaRegHeart, FaStar } from "react-icons/fa";
+import { FaEye, FaRegHeart, FaStar } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
 import Button from "../Button/Button";
 import { FiDownload } from "react-icons/fi";
@@ -48,13 +48,19 @@ const ProductCard = ({ course }) => {
         </div>
         {/* Description */}
         <h2 className="font-bold text-dark-background-color">{name}</h2>
-        <p className="opacity-[0.5]">{description.length > 50 ? `${description.slice(0, 50)} ....` : description}</p>
-        <p className="flex gap-2 items-center font-bold"><FiDownload /> {totalSell} Sales</p>
+        <p className="opacity-[0.5]">
+          {description.length > 50
+            ? `${description.slice(0, 50)} ....`
+            : description}
+        </p>
+        <p className="flex gap-2 items-center font-bold">
+          <FiDownload /> {totalSell} Sales
+        </p>
         <div className="flex items-center gap-2 font-bold">
           <del className="opacity-[0.6]">$ {price}</del>
           <p className="text-danger-color">$ {discountPrice}</p>
         </div>
-        <Button text="Learn More" icon={<MdKeyboardArrowRight  />} withOutBg />
+        <Button text="Learn More" icon={<MdKeyboardArrowRight />} withOutBg />
       </div>
     </div>
   );
