@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 const TeamCard = ({ member }) => {
   return (
-    <div className="bg-white rounded-lg">
-      <div className="h-[230px] w-full overflow-hidden rounded-t-lg group">
+    <div className="bg-white rounded-lg group">
+      <div className="h-[230px] w-full overflow-hidden rounded-t-lg">
         <img
           src={member?.image}
           alt={member?.name}
-          className="w-full h-full rounded-t-lg "
+          className="w-full h-full rounded-t-lg  group-hover:scale-50"
         />
       </div>
       <div className="p-[30px] space-y-[10px]">
