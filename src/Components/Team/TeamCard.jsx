@@ -16,7 +16,7 @@ const TeamCard = ({ member }) => {
         <h4 className="text-dark-background-color text-center font-bold">
           {member?.name}
         </h4>
-        <p className="text-xs text-[#737373] text-center">{member.position}</p>
+        <p className="text-xs text-[#737373] text-center">{member?.position}</p>
         <div className="flex justify-center gap-4">
           <Link to={member?.facebook} target="_blank">
             <FaFacebook
