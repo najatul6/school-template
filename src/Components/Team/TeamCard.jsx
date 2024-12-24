@@ -9,7 +9,7 @@ const TeamCard = ({ member }) => {
         <img
           src={member?.image}
           alt={member?.name}
-          className="w-full h-full rounded-t-lg  group-hover:scale-50"
+          className="w-full h-full rounded-t-lg  group-hover:scale-y-125 duration-500"
         />
       </div>
       <div className="p-[30px] space-y-[10px]">
