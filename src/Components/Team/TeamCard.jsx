@@ -18,19 +18,19 @@ const TeamCard = ({ member }) => {
         </h4>
         <p className="text-xs text-[#737373] text-center">{member.position}</p>
         <div className="flex justify-center gap-4">
-          <Link to={member?.facebook}>
+          <Link to={member?.facebook} target="_blank">
             <FaFacebook
               size={24}
               className="text-primary-color hover:text-blue-500"
             />
           </Link>
-          <Link to={member?.instagram}>
+          <Link to={member?.instagram} target="_blank">
             <FaInstagram
               size={24}
               className="text-primary-color hover:text-blue-500"
             />
           </Link>
-          <Link to={member?.twitter}>
+          <Link to={member?.twitter} target="_blank">
             <FaTwitter
               size={24}
               className="text-primary-color hover:text-blue-500"
