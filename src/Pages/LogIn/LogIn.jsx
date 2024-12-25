@@ -97,7 +97,7 @@ const LogIn = () => {
                 <div className="text-sm">
                   <Link
                     to="/forgotPassword"
-                    className="text-blue-600 hover:underline font-semibold"
+                    className="text-primary-color hover:underline font-semibold"
                   >
                     Forgot your password?
                   </Link>
