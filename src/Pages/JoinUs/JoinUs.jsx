@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const JoinUs = () => {
   return (
     <div className="font-[sans-serif] bg-white max-w-4xl flex items-center mx-auto md:h-screen p-4">
@@ -143,12 +145,12 @@ const JoinUs = () => {
                 className="ml-3 block text-sm text-gray-800"
               >
                 I accept the{" "}
-                <a
-                  href="javascript:void(0);"
+                <Link
+                  to=""
                   className="text-blue-600 font-semibold hover:underline ml-1"
                 >
                   Terms and Conditions
-                </a>
+                </Link>
               </label>
             </div>
           </div>
@@ -164,7 +166,7 @@ const JoinUs = () => {
           <p className="text-gray-800 text-sm mt-6 text-center">
             Already have an account?{" "}
             <a
-              href="javascript:void(0);"
+              href=""
               className="text-blue-600 font-semibold hover:underline ml-1"
             >
               Login here
