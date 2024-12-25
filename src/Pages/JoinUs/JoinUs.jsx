@@ -165,12 +165,12 @@ const JoinUs = () => {
           </div>
           <p className="text-gray-800 text-sm mt-6 text-center">
             Already have an account?{" "}
-            <a
+            <Link
               href=""
               className="text-blue-600 font-semibold hover:underline ml-1"
             >
               Login here
-            </a>
+            </Link>
           </p>
         </form>
       </div>
