@@ -167,7 +167,7 @@ const JoinUs = () => {
             Already have an account?{" "}
             <Link
               to="/logIn"
-              className="text-blue-600 font-semibold hover:underline ml-1"
+              className="text-primary-color font-semibold hover:underline ml-1"
             >
               Login here
             </Link>
