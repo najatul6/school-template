@@ -29,19 +29,20 @@ const Router = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
-      {
-        path: "/logIn",
-        element: <LogIn />,
-      },
-      {
-        path: "/joinUs",
-        element: <JoinUs />,
-      },
-      {
-        path: "/forgotPassword",
-        element: <ForgotPassword />,
-      },
+      
     ],
+  },
+  {
+    path: "/logIn",
+    element: <LogIn />,
+  },
+  {
+    path: "/joinUs",
+    element: <JoinUs />,
+  },
+  {
+    path: "/forgotPassword",
+    element: <ForgotPassword />,
   },
 ]);
 

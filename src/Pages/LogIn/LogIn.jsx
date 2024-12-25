@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const LogIn = () => {
   return (
     <div className="">
-      <div className=" flex flex-col items-center justify-center py-6 px-4">
+      <div className="min-h-screen flex flex-col items-center justify-center py-6 px-4">
         <div className="max-w-md w-full">
           {/* <a href="javascript:void(0)">
             <img
@@ -12,7 +12,7 @@ const LogIn = () => {
               className="w-40 mb-8 mx-auto block"
             />
           </a> */}
-          <Link to="/" className="text-2xl md:text-2xl text-white font-bold mb-8 mx-auto block">
+          <Link to="/" className="text-2xl md:text-2xl text-white font-bold w-40 mb-8 mx-auto block">
             <span className="text-primary-color">Dream</span>School
           </Link>
 
