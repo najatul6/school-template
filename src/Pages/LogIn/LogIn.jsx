@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const LogIn = () => {
+  const [showPassword, setShowPassword] = useState(false);
   return (
     <div className="">
       <div className="min-h-screen flex flex-col items-center justify-center py-6 px-4">
@@ -60,11 +62,13 @@ const LogIn = () => {
                     className="w-full text-white text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                     placeholder="Enter password"
                   />
+
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="#bbb"
                     stroke="#bbb"
                     className="w-4 h-4 absolute right-4 cursor-pointer"
+                    onClick={()=>setShowPassword(!showPassword)}
                     viewBox="0 0 128 128"
                   >
                     <path
