@@ -26,7 +26,7 @@ const LogIn = () => {
                     name="email"
                     type="email"
                     required
-                    className="w-full text-white text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                    className="w-full text-white bg-transparent text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                     placeholder="Enter Email Address"
                   />
                   <svg
@@ -59,7 +59,7 @@ const LogIn = () => {
                     name="password"
                     type={showPassword ? "text" : "password"}
                     required
-                    className="w-full text-white text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                    className="w-full text-white bg-transparent text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                     placeholder="Enter password"
                   />
 
