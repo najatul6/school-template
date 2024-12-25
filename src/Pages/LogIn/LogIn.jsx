@@ -19,12 +19,12 @@ const LogIn = () => {
             <form className="mt-8 space-y-4">
               <div>
                 <label className="text-white text-sm mb-2 block">
-                  User name
+                 Email Address
                 </label>
                 <div className="relative flex items-center">
                   <input
-                    name="username"
-                    type="text"
+                    name="email"
+                    type="email"
                     required
                     className="w-full text-white text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                     placeholder="Enter user name"
