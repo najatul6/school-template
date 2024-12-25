@@ -166,7 +166,7 @@ const JoinUs = () => {
           <p className="text-gray-800 text-sm mt-6 text-center">
             Already have an account?{" "}
             <Link
-              href=""
+              to="/logIn"
               className="text-blue-600 font-semibold hover:underline ml-1"
             >
               Login here
