@@ -56,14 +56,14 @@ const JoinUs = () => {
             </div>
 
             <div>
-              <label className="text-gray-800 text-sm mb-2 block">Email Id</label>
+              <label className="text-gray-800 text-sm mb-2 block">Email Address</label>
               <div className="relative flex items-center">
                 <input
                   name="email"
                   type="email"
                   required
                   className="text-gray-800 bg-white border border-gray-300 w-full text-sm px-4 py-2.5 rounded-md outline-blue-500"
-                  placeholder="Enter email"
+                  placeholder="Enter email Address"
                 />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
