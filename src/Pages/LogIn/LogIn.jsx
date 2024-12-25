@@ -27,7 +27,7 @@ const LogIn = () => {
                     type="email"
                     required
                     className="w-full text-white text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
-                    placeholder="Enter user name"
+                    placeholder="Enter Email Address"
                   />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
