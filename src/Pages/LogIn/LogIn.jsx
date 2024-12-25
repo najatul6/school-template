@@ -13,7 +13,7 @@ const LogIn = () => {
           </Link>
 
           <div className="p-8 rounded-2xl  shadow-inner shadow-primary-color">
-            <h2 className="text-white text-center text-2xl font-bold">
+            <h2 className="text-primary-color text-center text-2xl font-bold">
               Log in
             </h2>
             <form className="mt-8 space-y-4">
