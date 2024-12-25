@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const LogIn = () => {
   return (
     <div className="">
-      <div className="min-h-screen flex flex-col items-center justify-center py-6 px-4">
+      <div className=" flex flex-col items-center justify-center py-6 px-4">
         <div className="max-w-md w-full">
           <a href="javascript:void(0)">
             <img
