@@ -5,7 +5,14 @@ const LogIn = () => {
     <div className="">
       <div className=" flex flex-col items-center justify-center py-6 px-4">
         <div className="max-w-md w-full">
-          <Link to="/" className="text-2xl md:text-2xl text-white font-bold">
+          {/* <a href="javascript:void(0)">
+            <img
+              src="https://readymadeui.com/readymadeui.svg"
+              alt="logo"
+              className="w-40 mb-8 mx-auto block"
+            />
+          </a> */}
+          <Link to="/" className="text-2xl md:text-2xl text-white font-bold mb-8 mx-auto block">
             <span className="text-primary-color">Dream</span>School
           </Link>
 
