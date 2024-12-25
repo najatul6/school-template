@@ -36,6 +36,10 @@ const Router = createBrowserRouter([
         path: "/joinUs",
         element: <JoinUs />,
       },
+      {
+        path: "/forgotPassword",
+        element: <JoinUs />,
+      },
     ],
   },
 ]);

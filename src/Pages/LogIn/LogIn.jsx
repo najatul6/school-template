@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const LogIn = () => {
   return (
     <div className="bg-gray-50 font-[sans-serif]">
@@ -90,12 +92,12 @@ const LogIn = () => {
                   </label>
                 </div>
                 <div className="text-sm">
-                  <a
-                    href="jajvascript:void(0);"
+                  <Link
+                    to="/forgotPassword"
                     className="text-blue-600 hover:underline font-semibold"
                   >
                     Forgot your password?
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -109,12 +111,12 @@ const LogIn = () => {
               </div>
               <p className="text-gray-800 text-sm !mt-8 text-center">
                 Don&aspos;t have an account?{" "}
-                <a
-                  href="javascript:void(0);"
+                <Link
+                  to="/joinUs"
                   className="text-blue-600 hover:underline ml-1 whitespace-nowrap font-semibold"
                 >
                   Register here
-                </a>
+                </Link>
               </p>
             </form>
           </div>
