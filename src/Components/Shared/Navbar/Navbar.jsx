@@ -51,13 +51,15 @@ const Navbar = () => {
           ))}
           <div className="lg:hidden flex justify-center items-center flex-col pb-5">
             <Link to="/logIn"><Button text="LogIn" whiteText /></Link>
-            <Button text="JOIN US" icon={<FaArrowRight />} withBg />
+            <Link to="/joinUs"><Button text="JOIN US" icon={<FaArrowRight />} withBg /></Link>
+            
           </div>
         </ul>
       </nav>
       <div className="lg:flex hidden">
       <Link to="/logIn"><Button text="LogIn" whiteText /></Link>
-        <Button text="JOIN US" withBg icon={<FaArrowRight />} />
+      <Link to="/joinUs"><Button text="JOIN US" withBg icon={<FaArrowRight />} /></Link>
+        
       </div>
       {/* <div className="dropdown dropdown-end">
         <div tabIndex={0} role="button" className=" m-1">
