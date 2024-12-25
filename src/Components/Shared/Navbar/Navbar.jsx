@@ -50,13 +50,13 @@ const Navbar = () => {
             </li>
           ))}
           <div className="lg:hidden flex justify-center items-center flex-col pb-5">
-            <Button text="LogIn" whiteText />
+            <Link to="/logIn"><Button text="LogIn" whiteText /></Link>
             <Button text="JOIN US" icon={<FaArrowRight />} withBg />
           </div>
         </ul>
       </nav>
       <div className="lg:flex hidden">
-        <Button text="LogIn" whiteText />
+      <Link to="/logIn"><Button text="LogIn" whiteText /></Link>
         <Button text="JOIN US" withBg icon={<FaArrowRight />} />
       </div>
       {/* <div className="dropdown dropdown-end">
