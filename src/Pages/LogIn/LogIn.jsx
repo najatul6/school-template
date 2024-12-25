@@ -14,7 +14,7 @@ const LogIn = () => {
 
           <div className="p-8 rounded-2xl  shadow-inner shadow-primary-color">
             <h2 className="text-white text-center text-2xl font-bold">
-              Sign in
+              Log in
             </h2>
             <form className="mt-8 space-y-4">
               <div>
@@ -109,14 +109,14 @@ const LogIn = () => {
                   type="button"
                   className="w-full py-3 px-4 text-sm tracking-wide rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none"
                 >
-                  Sign in
+                  Log in
                 </button>
               </div>
               <p className="text-white text-sm !mt-8 text-center">
                 Don&apos;t have an account?{" "}
                 <Link
                   to="/joinUs"
-                  className="text-blue-600 hover:underline ml-1 whitespace-nowrap font-semibold"
+                  className="text-primary-color hover:underline ml-1 whitespace-nowrap font-semibold"
                 >
                   Register here
                 </Link>
