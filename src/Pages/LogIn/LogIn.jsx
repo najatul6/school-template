@@ -5,24 +5,18 @@ const LogIn = () => {
     <div className="">
       <div className="min-h-screen flex flex-col items-center justify-center py-6 px-4">
         <div className="max-w-md w-full">
-          {/* <a href="javascript:void(0)">
-            <img
-              src="https://readymadeui.com/readymadeui.svg"
-              alt="logo"
-              className="w-40 mb-8 mx-auto block"
-            />
-          </a> */}
+         
           <Link to="/" className="text-2xl md:text-2xl text-white font-bold w-40 mb-8 mx-auto block">
             <span className="text-primary-color">Dream</span>School
           </Link>
 
-          <div className="p-8 rounded-2xl bg-white shadow">
-            <h2 className="text-gray-800 text-center text-2xl font-bold">
+          <div className="p-8 rounded-2xl  shadow-inner shadow-primary-color">
+            <h2 className="text-white text-center text-2xl font-bold">
               Sign in
             </h2>
             <form className="mt-8 space-y-4">
               <div>
-                <label className="text-gray-800 text-sm mb-2 block">
+                <label className="text-white text-sm mb-2 block">
                   User name
                 </label>
                 <div className="relative flex items-center">
@@ -30,7 +24,7 @@ const LogIn = () => {
                     name="username"
                     type="text"
                     required
-                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                    className="w-full text-white text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                     placeholder="Enter user name"
                   />
                   <svg
@@ -55,7 +49,7 @@ const LogIn = () => {
               </div>
 
               <div>
-                <label className="text-gray-800 text-sm mb-2 block">
+                <label className="text-white text-sm mb-2 block">
                   Password
                 </label>
                 <div className="relative flex items-center">
@@ -63,7 +57,7 @@ const LogIn = () => {
                     name="password"
                     type="password"
                     required
-                    className="w-full text-gray-800 text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
+                    className="w-full text-white text-sm border border-gray-300 px-4 py-3 rounded-md outline-blue-600"
                     placeholder="Enter password"
                   />
                   <svg
@@ -91,7 +85,7 @@ const LogIn = () => {
                   />
                   <label
                     htmlFor="remember-me"
-                    className="ml-3 block text-sm text-gray-800"
+                    className="ml-3 block text-sm text-white"
                   >
                     Remember me
                   </label>
@@ -114,8 +108,8 @@ const LogIn = () => {
                   Sign in
                 </button>
               </div>
-              <p className="text-gray-800 text-sm !mt-8 text-center">
-                Don&aspos;t have an account?{" "}
+              <p className="text-white text-sm !mt-8 text-center">
+                Don&apos;t have an account?{" "}
                 <Link
                   to="/joinUs"
                   className="text-blue-600 hover:underline ml-1 whitespace-nowrap font-semibold"
