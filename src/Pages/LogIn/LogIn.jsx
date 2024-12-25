@@ -5,13 +5,9 @@ const LogIn = () => {
     <div className="">
       <div className=" flex flex-col items-center justify-center py-6 px-4">
         <div className="max-w-md w-full">
-          <a href="javascript:void(0)">
-            <img
-              src="https://readymadeui.com/readymadeui.svg"
-              alt="logo"
-              className="w-40 mb-8 mx-auto block"
-            />
-          </a>
+          <Link to="/" className="text-2xl md:text-2xl text-white font-bold">
+            <span className="text-primary-color">Dream</span>School
+          </Link>
 
           <div className="p-8 rounded-2xl bg-white shadow">
             <h2 className="text-gray-800 text-center text-2xl font-bold">
@@ -52,7 +48,9 @@ const LogIn = () => {
               </div>
 
               <div>
-                <label className="text-gray-800 text-sm mb-2 block">Password</label>
+                <label className="text-gray-800 text-sm mb-2 block">
+                  Password
+                </label>
                 <div className="relative flex items-center">
                   <input
                     name="password"
