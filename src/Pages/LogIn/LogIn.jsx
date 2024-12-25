@@ -83,7 +83,7 @@ const LogIn = () => {
                     className="h-4 w-4 shrink-0 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                   />
                   <label
-                    for="remember-me"
+                    htmlFor="remember-me"
                     className="ml-3 block text-sm text-gray-800"
                   >
                     Remember me
@@ -108,7 +108,7 @@ const LogIn = () => {
                 </button>
               </div>
               <p className="text-gray-800 text-sm !mt-8 text-center">
-                Don't have an account?{" "}
+                Don&aspos;t have an account?{" "}
                 <a
                   href="javascript:void(0);"
                   className="text-blue-600 hover:underline ml-1 whitespace-nowrap font-semibold"
