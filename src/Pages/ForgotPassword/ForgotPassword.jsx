@@ -7,7 +7,7 @@ const ForgotPassword = () => {
         <form>
             <div className="mb-4">
                 <label className="block text-white font-bold mb-2" htmlFor="email">
-                   Your Email Address
+                   Enter your Email Address
                 </label>
                 <input className="appearance-none bg-transparent border border-primary-color rounded w-full py-2 px-3 text-primary-color leading-tight focus:outline-none focus:shadow-outline placeholder:text-primary-color" id="email" type="email" placeholder="Enter your email address" />
             </div>
