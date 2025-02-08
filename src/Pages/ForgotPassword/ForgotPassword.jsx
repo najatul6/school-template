@@ -3,6 +3,7 @@ const ForgotPassword = () => {
 const handleSubmit = (e) => {
     e.preventDefault()
     const email = e.target.email.value
+    console.log(email);
 }
   return (
     <div className="min-h-screen flex items-center justify-center">
