@@ -47,7 +47,6 @@ export const socialMedia = [
     name: "Pinterest",
     link: "https://www.pinterest.com/",
     icon: "fab fa-pinterest"
-
   },
   {
     id: "202jd721044",
