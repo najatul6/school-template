@@ -26,14 +26,12 @@ export const socialMedia = [
     name: "Twitter",
     link: "https://www.twitter.com/",
     icon: "fab fa-twitter"
-
   },
   {
     id: "202jd721041",
     name: "LinkedIn",
     link: "https://www.linkedin.com/",
     icon: "fab fa-linkedin"
-
   },
   {
     id: "202jd721042",
