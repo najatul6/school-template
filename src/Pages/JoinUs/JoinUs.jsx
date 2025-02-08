@@ -164,7 +164,7 @@ const JoinUs = () => {
             </button>
           </div>
           <p className="text-gray-800 text-sm mt-6 text-center">
-            Already have an account?{" "}
+            Already have an account?
             <Link
               to="/logIn"
               className="text-primary-color font-semibold hover:underline ml-1"
