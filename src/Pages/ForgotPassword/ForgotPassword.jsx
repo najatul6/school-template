@@ -4,7 +4,7 @@ const ForgotPassword = () => {
     <div className="min-h-screen flex items-center justify-center">
     <div className="shadow-inner shadow-primary-color rounded px-8 pt-6 pb-8 mb-4 max-w-lg w-full">
         <h1 className="text-center text-white text-2xl font-bold mb-6">Forgot Password</h1>
-        <form>
+        <form onSubmit={handleSubmit}>
             <div className="mb-4">
                 <label className="block text-white font-bold mb-2" htmlFor="email">
                    Enter your Email Address
