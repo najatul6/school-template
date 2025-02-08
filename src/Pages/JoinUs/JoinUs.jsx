@@ -146,7 +146,7 @@ const JoinUs = () => {
               >
                 I accept the{" "}
                 <Link
-                  to=""
+                  to="/terms&conditions"
                   className="text-blue-600 font-semibold hover:underline ml-1"
                 >
                   Terms and Conditions
