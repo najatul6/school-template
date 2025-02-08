@@ -16,7 +16,7 @@ const handleSubmit = (e) => {
                 </label>
                 <input className="appearance-none bg-transparent border border-primary-color rounded w-full py-2 px-3 text-primary-color leading-tight focus:outline-none focus:shadow-outline placeholder:text-primary-color" id="email" type="email" placeholder="Enter your email address" />
             </div>
-            <button type="submit" className="bg-primary-color hover:bg-transparent border-2 duration-300 border-primary-color text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full" type="submit">
+            <button  className="bg-primary-color hover:bg-transparent border-2 duration-300 border-primary-color text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full" type="submit">
                 Reset Password
             </button>
         </form>
