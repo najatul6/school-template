@@ -38,7 +38,6 @@ export const socialMedia = [
     name: "YouTube",
     link: "https://www.youtube.com/",
     icon: "fab fa-youtube"
-
   },
   {
     id: "202jd721043",
@@ -51,6 +50,5 @@ export const socialMedia = [
     name: "Snapchat",
     link: "https://www.snapchat.com/",
     icon: "fab fa-snapchat"
-
   },
 ]
