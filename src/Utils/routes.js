@@ -4,3 +4,8 @@ export const menu = [
   { id: 3, path: "/pricing", name: "Pricing", component: "Pricing" },
   { id: 4, path: "/contact", name: "Contact", component: "Contact" },
 ];
+
+
+export const socialMedia=[
+  
+]
