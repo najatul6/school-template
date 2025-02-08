@@ -12,14 +12,12 @@ export const socialMedia = [
     name: "Facebook",
     link: "https://www.facebook.com/",
     icon: "fab fa-facebook-f"
-
   },
   {
     id: "202jd721039",
     name: "Instagram",
     link: "https://www.instagram.com/",
     icon: "fab fa-instagram"
-
   },
   {
     id: "202jd721040",
