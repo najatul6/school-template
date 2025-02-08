@@ -1,7 +1,7 @@
 
 const ForgotPassword = () => {
 const handleSubmit = (e) => {
-    
+    e.preventDefault()
 }
   return (
     <div className="min-h-screen flex items-center justify-center">
